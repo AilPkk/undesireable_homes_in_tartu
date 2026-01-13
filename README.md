@@ -58,7 +58,7 @@ The impact of nighttime noise pollution is shown in *Image 2*.
 * However, buildings along **Kroonuaia** and **Lai** streets are shown as less desirable due to higher nighttime noise levels.
 
 <figure>
-  <img src="images/image1.png" alt="Effects of distances on Undesirability">
+  <img src="images/image2.png" alt="Effects of distances on Undesirability">
   <figcaption>Image 2. Effects of nighttime noise pollution on Undesirability.</figcaption>
 </figure>
 
