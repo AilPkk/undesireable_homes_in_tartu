@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undesireable homes In Tartu</title>
+    <link
+            rel="stylesheet"
+            href="https://js.arcgis.com/4.30/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.30/"></script>
+    <style>
+        body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+        #mapContainer {
+          width: calc(100% - 300px);
+          height: 98vh;
+        }
+        .tooltip {
+          position: absolute;
+          background-color: white;
+          padding: 5px;
+          border: 1px solid black;
+          border-radius: 3px;
+          pointer-events: none;
+          visibility: hidden;
+        }
+        #sidePanel {
+            width: 300px;
+            padding: 10px;
+            float: right;
+            background-color: #F6F9F6;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div id="mapContainer" ></div>
+<div id="sidePanel" >This map will rank houses by (un)desirability.<br>Click on the map to find the distance to the nearest features.</div>
+<div id="tooltip" class="tooltip"></div>
+<script type="module" src="map.js"></script>
+</body>
+</html>
